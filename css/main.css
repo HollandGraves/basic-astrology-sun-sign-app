@@ -1,0 +1,49 @@
+#pageContainer {
+    text-align: center;
+}
+
+#zodiacSearchBar {
+    text-align: center;
+    margin: 30px auto;
+}
+
+#zodiacSign {
+    width: 100%;
+    padding: 5px;
+}
+
+.zodiacButton {
+    text-align: center;
+    font-size: .9em;
+    width: 75px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+@media(max-width: 800px) {
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .zodiacButton {
+        font-size: .85rem;
+        width: 62px;
+        height: 41px;
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .zodiacButton {
+        font-size: .7rem;
+        width: 50px;
+        height: 33px;
+    }
+
+}

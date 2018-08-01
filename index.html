@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="css/main.css" />
+
+        <title>Week 7</title>
+    </head>
+    <body>
+        <div id="pageContainer">
+
+            <!-- In HTML: Make an h1 and give it a unique Id. 
+            Using Javascript, insert some text into that element -->
+            <h1 id="mainHead"></h1>
+            <h1 id="sign"></h1>
+            <h1 id="quadraplicity"></h1>
+            <h1 id="triplicity"></h1>
+            
+
+
+            <!-- In HTML: Create an input and give it a unique ID. Then create a button with an 
+            onclick attribute which invokes a function. Name this function whatever you’d like -->
+            <div id="zodiacSearchBar">
+                <input id="userZodiacSign" type="text" /> <br>
+                <button type="button" class="zodiacButton" onclick="zodiacInfo()">Submit</button> <br>
+                <button type="button" class="zodiacButton" onclick="zodiacReset()">Reset</button> <br>
+            </div>
+
+        </div>
+
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
